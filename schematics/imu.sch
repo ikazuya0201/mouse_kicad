@@ -1,0 +1,227 @@
+EESchema Schematic File Version 4
+LIBS:mouse_v2-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 6850 3300 2    60   Input ~ 0
+SPI_SCLK
+Text HLabel 6850 3400 2    60   Input ~ 0
+SPI_MOSI
+Wire Wire Line
+	6850 3200 6350 3200
+Wire Wire Line
+	6350 3300 6850 3300
+Text HLabel 6850 3200 2    60   Input ~ 0
+SPI_CS
+Wire Wire Line
+	6850 3400 6350 3400
+Text HLabel 6850 3500 2    60   Output ~ 0
+SPI_MISO
+NoConn ~ 6350 4200
+NoConn ~ 6350 4300
+NoConn ~ 6350 4400
+NoConn ~ 6350 4500
+NoConn ~ 5050 4000
+NoConn ~ 5050 4100
+NoConn ~ 5050 4200
+NoConn ~ 5050 4300
+NoConn ~ 5050 4400
+NoConn ~ 5050 4500
+NoConn ~ 5050 3700
+NoConn ~ 6350 4100
+Wire Wire Line
+	6850 3500 6350 3500
+NoConn ~ 5050 3800
+Wire Wire Line
+	6350 3700 6550 3700
+Wire Wire Line
+	6550 3700 6550 3800
+Wire Wire Line
+	6350 3800 6550 3800
+Connection ~ 6550 3800
+Wire Wire Line
+	6350 4000 6550 4000
+Connection ~ 6550 4000
+NoConn ~ 5050 3500
+Wire Wire Line
+	4900 3000 4900 3200
+Wire Wire Line
+	4900 3300 5050 3300
+Wire Wire Line
+	5050 3200 4900 3200
+Connection ~ 4900 3200
+Text GLabel 5150 2150 0    60   Input ~ 0
+3.3V
+Text GLabel 5150 2350 0    60   Input ~ 0
+GND
+Wire Wire Line
+	5400 1950 5400 2150
+Wire Wire Line
+	5400 2150 5150 2150
+Wire Wire Line
+	5150 2350 5400 2350
+Wire Wire Line
+	5400 2350 5400 2550
+Wire Wire Line
+	5900 1950 5900 2000
+Wire Wire Line
+	5900 2400 5900 2500
+Connection ~ 5900 2500
+Connection ~ 5900 2000
+Wire Wire Line
+	6550 3800 6550 4000
+Wire Wire Line
+	6550 4000 6550 4150
+Wire Wire Line
+	4900 3200 4900 3300
+Wire Wire Line
+	5900 2500 5900 2550
+Wire Wire Line
+	5900 2000 5900 2100
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5CB11C9D
+P 4900 3000
+F 0 "#PWR?" H 4900 2850 50  0001 C CNN
+F 1 "+3.3V" H 4915 3173 50  0000 C CNN
+F 2 "" H 4900 3000 50  0001 C CNN
+F 3 "" H 4900 3000 50  0001 C CNN
+	1    4900 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CB11D0F
+P 4700 3700
+F 0 "C?" H 4815 3746 50  0000 L CNN
+F 1 "0.1u" H 4815 3655 50  0000 L CNN
+F 2 "" H 4738 3550 50  0001 C CNN
+F 3 "~" H 4700 3700 50  0001 C CNN
+	1    4700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CB11D87
+P 4700 4100
+F 0 "#PWR?" H 4700 3850 50  0001 C CNN
+F 1 "GND" H 4705 3927 50  0000 C CNN
+F 2 "" H 4700 4100 50  0001 C CNN
+F 3 "" H 4700 4100 50  0001 C CNN
+	1    4700 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CB11DF8
+P 6550 4150
+F 0 "#PWR?" H 6550 3900 50  0001 C CNN
+F 1 "GND" H 6555 3977 50  0000 C CNN
+F 2 "" H 6550 4150 50  0001 C CNN
+F 3 "" H 6550 4150 50  0001 C CNN
+	1    6550 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CB12BA4
+P 5400 2550
+F 0 "#PWR?" H 5400 2300 50  0001 C CNN
+F 1 "GND" H 5405 2377 50  0000 C CNN
+F 2 "" H 5400 2550 50  0001 C CNN
+F 3 "" H 5400 2550 50  0001 C CNN
+	1    5400 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CB12BD6
+P 5900 2550
+F 0 "#PWR?" H 5900 2300 50  0001 C CNN
+F 1 "GND" H 5905 2377 50  0000 C CNN
+F 2 "" H 5900 2550 50  0001 C CNN
+F 3 "" H 5900 2550 50  0001 C CNN
+	1    5900 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5CB12C5C
+P 5400 1950
+F 0 "#PWR?" H 5400 1800 50  0001 C CNN
+F 1 "+3.3V" H 5415 2123 50  0000 C CNN
+F 2 "" H 5400 1950 50  0001 C CNN
+F 3 "" H 5400 1950 50  0001 C CNN
+	1    5400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5CB12C8E
+P 5900 1950
+F 0 "#PWR?" H 5900 1800 50  0001 C CNN
+F 1 "+3.3V" H 5915 2123 50  0000 C CNN
+F 2 "" H 5900 1950 50  0001 C CNN
+F 3 "" H 5900 1950 50  0001 C CNN
+	1    5900 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CB13368
+P 5900 2250
+F 0 "C?" H 6015 2296 50  0000 L CNN
+F 1 "0.1u" H 6015 2205 50  0000 L CNN
+F 2 "" H 5938 2100 50  0001 C CNN
+F 3 "~" H 5900 2250 50  0001 C CNN
+	1    5900 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CB133A4
+P 6300 2250
+F 0 "C?" H 6415 2296 50  0000 L CNN
+F 1 "0.01u" H 6415 2205 50  0000 L CNN
+F 2 "" H 6338 2100 50  0001 C CNN
+F 3 "~" H 6300 2250 50  0001 C CNN
+	1    6300 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 2000 6300 2100
+Wire Wire Line
+	5900 2000 6300 2000
+Wire Wire Line
+	6300 2400 6300 2500
+Wire Wire Line
+	5900 2500 6300 2500
+$Comp
+L icm20648:ICM20648 U?
+U 1 1 5CB14404
+P 5700 3850
+F 0 "U?" H 5700 4787 60  0000 C CNN
+F 1 "ICM20648" H 5700 4681 60  0000 C CNN
+F 2 "" H 5400 3000 60  0000 C CNN
+F 3 "" H 5400 3000 60  0000 C CNN
+	1    5700 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3400 4700 3550
+Wire Wire Line
+	4700 3400 5050 3400
+Wire Wire Line
+	4700 3850 4700 4100
+$EndSCHEMATC

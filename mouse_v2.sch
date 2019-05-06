@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 14
+Sheet 1 15
 Title ""
 Date ""
 Rev ""
@@ -311,9 +311,15 @@ Wire Wire Line
 Wire Wire Line
 	6750 4750 7300 4750
 $Sheet
-S 2150 1000 1000 800 
+S 1200 750  1000 800 
 U 5CD09D99
 F0 "amp_battery" 50
 F1 "schematics/amp_battery.sch" 50
+$EndSheet
+$Sheet
+S 1200 1900 1000 700 
+U 5CD60484
+F0 "converter" 50
+F1 "schematics/converter.sch" 50
 $EndSheet
 $EndSCHEMATC

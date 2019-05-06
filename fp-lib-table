@@ -1,0 +1,11 @@
+(fp_lib_table
+  (lib (name EMP8)(type KiCad)(uri ${KIPRJMOD}/footprints/EMP8.pretty)(options "")(descr ""))
+  (lib (name SMT-0440-S-R)(type KiCad)(uri ${KIPRJMOD}/footprints/SMT-0440-S-R.pretty)(options "")(descr ""))
+  (lib (name DRV8835)(type KiCad)(uri ${KIPRJMOD}/footprints/DRV8835.pretty)(options "")(descr ""))
+  (lib (name VL6180X)(type KiCad)(uri ${KIPRJMOD}/footprints/VL6180X.pretty)(options "")(descr ""))
+  (lib (name SW_CUS-12B)(type KiCad)(uri ${KIPRJMOD}/footprints/SW_CUS-12B.pretty)(options "")(descr ""))
+  (lib (name SIDE_SW)(type KiCad)(uri ${KIPRJMOD}/footprints/SIDE_SW.pretty)(options "")(descr ""))
+  (lib (name TOF_BOARD)(type KiCad)(uri ${KIPRJMOD}/footprints/TOF_BOARD.pretty)(options "")(descr ""))
+  (lib (name ENC_BOARD)(type KiCad)(uri ${KIPRJMOD}/footprints/ENC_BOARD.pretty)(options "")(descr ""))
+  (lib (name Abracon)(type KiCad)(uri ${KIPRJMOD}/footprints/Abracon)(options "")(descr ""))
+)

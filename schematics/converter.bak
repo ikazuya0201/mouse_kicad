@@ -25,23 +25,6 @@ F 3 "~" H 6000 3700 50  0001 C CNN
 	1    6000 3700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5800 3500 5200 3500
-Wire Wire Line
-	5200 3500 5200 3600
-Wire Wire Line
-	5200 3600 4700 3600
-Wire Wire Line
-	5800 3600 5400 3600
-Wire Wire Line
-	5400 3600 5400 3700
-Wire Wire Line
-	5400 3800 4700 3800
-Wire Wire Line
-	5800 3700 5400 3700
-Connection ~ 5400 3700
-Wire Wire Line
-	5400 3700 5400 3800
 NoConn ~ 5800 3800
 NoConn ~ 5800 3900
 NoConn ~ 6300 3700
@@ -72,14 +55,37 @@ Wire Wire Line
 Wire Wire Line
 	6300 3600 6400 3600
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J?
+L Connector_Generic:Conn_02x03_Odd_Even J15
 U 1 1 5CD6E1D5
 P 4400 3700
-F 0 "J?" H 4450 4017 50  0000 C CNN
+F 0 "J15" H 4450 4017 50  0000 C CNN
 F 1 "DEBUGGER_CONN" H 4450 3926 50  0000 C CNN
-F 2 "" H 4400 3700 50  0001 C CNN
+F 2 "Connector_PinSocket_1.27mm:PinSocket_2x03_P1.27mm_Vertical_SMD" H 4400 3700 50  0001 C CNN
 F 3 "~" H 4400 3700 50  0001 C CNN
 	1    4400 3700
 	1    0    0    -1  
 $EndComp
+Text Label 4800 3800 0    50   ~ 0
+GND
+Text Label 5600 3700 2    50   ~ 0
+GND
+Text Label 4800 3600 0    50   ~ 0
+3.3V
+Text Label 5600 3500 2    50   ~ 0
+3.3V
+Wire Wire Line
+	5800 3600 5700 3600
+Wire Wire Line
+	5700 3600 5700 3700
+Wire Wire Line
+	5700 3700 5600 3700
+Wire Wire Line
+	5800 3700 5700 3700
+Connection ~ 5700 3700
+Wire Wire Line
+	5800 3500 5600 3500
+Wire Wire Line
+	4800 3600 4700 3600
+Wire Wire Line
+	4800 3800 4700 3800
 $EndSCHEMATC

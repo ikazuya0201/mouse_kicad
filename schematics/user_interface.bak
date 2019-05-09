@@ -54,8 +54,6 @@ Text HLabel 4300 2450 0    50   Input ~ 0
 LED2
 Text HLabel 4300 2800 0    50   Input ~ 0
 LED3
-Text HLabel 4300 3150 0    50   Input ~ 0
-LED4
 $Comp
 L Device:R R27
 U 1 1 5CC7692D
@@ -90,17 +88,6 @@ F 3 "~" H 4650 2800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R30
-U 1 1 5CC76A20
-P 4650 3150
-F 0 "R30" V 4443 3150 50  0000 C CNN
-F 1 "1k" V 4534 3150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 4580 3150 50  0001 C CNN
-F 3 "~" H 4650 3150 50  0001 C CNN
-	1    4650 3150
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:LED D6
 U 1 1 5CC76AAB
 P 5150 2100
@@ -131,17 +118,6 @@ F 1 "LED3" H 5142 2636 50  0000 C CNN
 F 2 "LED_SMD:LED_0402_1005Metric" H 5150 2800 50  0001 C CNN
 F 3 "~" H 5150 2800 50  0001 C CNN
 	1    5150 2800
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED D9
-U 1 1 5CC76C82
-P 5150 3150
-F 0 "D9" H 5142 2895 50  0000 C CNN
-F 1 "LED4" H 5142 2986 50  0000 C CNN
-F 2 "LED_SMD:LED_0402_1005Metric" H 5150 3150 50  0001 C CNN
-F 3 "~" H 5150 3150 50  0001 C CNN
-	1    5150 3150
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -179,17 +155,6 @@ Wire Wire Line
 Wire Wire Line
 	5300 2800 5600 2800
 Connection ~ 5600 2800
-Wire Wire Line
-	5600 2800 5600 3150
-Wire Wire Line
-	4300 3150 4500 3150
-Wire Wire Line
-	4800 3150 5000 3150
-Wire Wire Line
-	5300 3150 5600 3150
-Connection ~ 5600 3150
-Wire Wire Line
-	5600 3150 5600 3350
 $Comp
 L Device:Speaker LS1
 U 1 1 5CC7B077
@@ -337,4 +302,6 @@ Wire Wire Line
 Connection ~ 5300 4500
 Wire Wire Line
 	5300 4500 5500 4500
+Wire Wire Line
+	5600 2800 5600 3350
 $EndSCHEMATC

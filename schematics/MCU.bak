@@ -178,9 +178,9 @@ Wire Wire Line
 	10200 1800 10700 1800
 Wire Wire Line
 	10700 1800 10700 1900
-Text HLabel 3600 3450 0    50   Input ~ 0
-ENC1_A
 Text HLabel 3600 3600 0    50   Input ~ 0
+ENC1_A
+Text HLabel 3600 3450 0    50   Input ~ 0
 ENC1_B
 Text HLabel 3600 3750 0    50   Input ~ 0
 ENC2_A
@@ -194,7 +194,7 @@ Wire Wire Line
 	3600 3750 3900 3750
 Wire Wire Line
 	3900 3900 3600 3900
-Text HLabel 8250 3600 2    50   Output ~ 0
+Text HLabel 3650 2850 0    50   Output ~ 0
 IMU_NSS
 Wire Wire Line
 	5850 2100 5850 1500
@@ -279,20 +279,12 @@ Wire Wire Line
 Connection ~ 10600 5900
 Wire Wire Line
 	10600 5900 10600 5950
-Text HLabel 8250 4950 2    50   Output ~ 0
+Text HLabel 3650 3150 0    50   Output ~ 0
 TOF1_EN
-Text HLabel 8250 5100 2    50   Output ~ 0
+Text HLabel 8250 3600 2    50   Output ~ 0
 TOF2_EN
-Text HLabel 8250 5250 2    50   Output ~ 0
+Text HLabel 8250 2850 2    50   Output ~ 0
 TOF3_EN
-Wire Wire Line
-	8250 4950 8000 4950
-Wire Wire Line
-	8000 5100 8250 5100
-Wire Wire Line
-	8250 5250 8000 5250
-Wire Wire Line
-	3600 5100 3900 5100
 $Comp
 L power:+3.3VA #PWR06
 U 1 1 5CAA7440
@@ -427,32 +419,20 @@ Wire Wire Line
 	1800 1200 1350 1200
 Wire Wire Line
 	10400 1700 10200 1700
-Text HLabel 3600 4650 0    50   Output ~ 0
+Text HLabel 8250 5250 2    50   Output ~ 0
 LED1
 Text HLabel 3600 4800 0    50   Output ~ 0
 LED2
-Text HLabel 3600 4950 0    50   Output ~ 0
+Text HLabel 8250 5100 2    50   Output ~ 0
 LED3
-Text HLabel 3600 5100 0    50   Output ~ 0
-LED4
 Wire Wire Line
 	3600 4500 3900 4500
-Wire Wire Line
-	3900 4650 3600 4650
-Wire Wire Line
-	3600 4950 3900 4950
-Wire Wire Line
-	8250 3600 8000 3600
 Text HLabel 8250 4050 2    50   Input ~ 0
 BUTTON
 Wire Wire Line
 	8250 4050 8000 4050
-NoConn ~ 8000 2850
 NoConn ~ 8000 3000
 NoConn ~ 8000 4800
-NoConn ~ 3900 2850
-NoConn ~ 3900 3000
-NoConn ~ 3900 3150
 Wire Wire Line
 	8000 2550 8200 2550
 Wire Wire Line
@@ -561,4 +541,21 @@ Wire Wire Line
 	9500 1700 9700 1700
 Wire Wire Line
 	9100 1800 9700 1800
+Wire Wire Line
+	3900 2850 3650 2850
+Wire Wire Line
+	8250 3600 8000 3600
+NoConn ~ 8000 4950
+Wire Wire Line
+	3650 3150 3900 3150
+Wire Wire Line
+	8250 2850 8000 2850
+NoConn ~ 3900 3000
+Wire Wire Line
+	8250 5250 8000 5250
+NoConn ~ 3900 4650
+Wire Wire Line
+	8250 5100 8000 5100
+NoConn ~ 3900 4950
+NoConn ~ 3900 5100
 $EndSCHEMATC

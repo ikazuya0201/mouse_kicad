@@ -66,9 +66,9 @@ F 3 "~" H 4400 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 4800 3800 0    50   ~ 0
-GND
+t_GND
 Text Label 5600 3700 2    50   ~ 0
-GND
+t_GND
 Text Label 4800 3600 0    50   ~ 0
 3.3V
 Text Label 5600 3500 2    50   ~ 0
